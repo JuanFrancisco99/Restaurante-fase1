@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/hamburguesa-con-queso.png">
+    <title>Ankara Burguer</title>
+</head>
+
+<body class="d-flex flex-wrap col-12 justify-content-center">
+    <!--navbar-->
+    <header class="col-8 justify-content-left d-flex py-4 navbar navbar-light" style="background-color: #FF92E1;">
+        <i id="icono-menu" class="bi bi-list text-dark ms-5" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasTop"></i>
+            <img src="./img/hamburguesa-con-queso.png" alt="logo" style="width:100px;height: 100px;">
+    </header>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body justify-content-center">
+            <div class="d-flex justify-content-center">
+                <ul class="list-group list-group-flush nav">
+                    <li class="list-group-item">
+                        <a class="nav-link active" href="Mainpage.html">Mainpage</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="nav-link active" href="Carta.html">Carta</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="nav-link active" href="reservas.html">Reservas</a>
+                    </li>    
+                </ul>
+            </div>
+        </div>
+        <!--navbar-->
+    </div>
+
+    <main class="principal d-flex flex-wrap col-8">
+        <div class="bebidas1 col-12">
+            <section id="refrescos" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">REFRESCOS</h2>
+                <div class="RF1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Coca Cola, Zero, Light o Sin Cafeína <strong>350ml</strong></p>
+                        <p class="col-3 text-end mb-0">2,50€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Fanta de Limón / Naranja</p>
+                        <p class="col-3 text-end mb-0">2,50€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Aquarius de Limón / Naranja</p>
+                        <p class="col-3 text-end mb-0">2,5€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Sprite</p>
+                        <p class="col-3 text-end mb-0">2,50€</p>
+                    </article>
+
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Nestea</p>
+                        <p class="col-3 text-end mb-0">2,50€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Agua Mineral 1/2 litro</p>
+                        <p class="col-3 text-end mb-0">1,80€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9 mb-0">Agua con gas</p>
+                        <p class="col-3 text-end mb-0">2,00€</p>
+                    </article>
+                </div>
+                <!--FOTO QUE OCUPE LA MITAD DE ESTE DIV-->
+                <div class="RF2 col-6">
+                    <img width="340px" height="600px" src="./img/bebida.jpg" alt="">
+                </div>
+            </section>
+
+            <section id="vinos" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">VINOS</h2>
+                <div class="VIN1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="vinos col-10">BLANCO</h3>
+                        <img class="col-2 me-3" src="./img/copa_De_vino-icons.com_50127.png" alt="copa de vino" style="width:35px;height:35px;">
+                        <img class="col-2 ms-3" src="./img/bottle_wine_icon_138844.png" alt="botella de vino" style="width:35px;height:35px;">
+                        <p class="col-9">La Cuadra</p>
+                        <p class="col-3 text-end mb-0">2,50€ / 12,00€</p>
+                        <p class="col-12">(Verdejo - D.O. Rueda)</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9">Taula Varona</p>
+                        <p class="col-3 text-end mb-0">2,50€ / 12,00€</p>
+                        <p class="col-12">(Albariño - D.O. Rias Baixas)</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <p class="col-9">Nava Real</p>
+                        <p class="col-3 text-end mb-0">2,50€ / 15,00€</p>
+                        <p class="col-12">(Verdejo - D.O. Rueda)</p>
+                    </article>
+                </div>
+                <div class="VIN2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="vinos col-10">TINTOS</h3>
+                        <img class="col-2 me-3" src="./img/copa_De_vino-icons.com_50127.png" alt="copa de vino" style="width:35px;height:35px;">
+                        <img class="col-2 ms-3" src="./img/bottle_wine_icon_138844.png" alt="botella de vino" style="width:35px;height:35px;">
+                        <p class="col-9">Luna Fría</p>
+                        <p class="col-3 text-end mb-0">2,50€ / 14,00€</p>
+                        <p class="col-12">(Tempranillo - D.O. Rioja)</p>
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <p class="col-9">Espinela</p>
+                            <p class="col-3 text-end mb-0">2,50€ / 15,00€</p>
+                            <p class="col-12">(Tempranillo - D.O. Ribera del Duero)</p>
+                        </article>
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <p class="col-9">Marqués de Griñón</p>
+                            <p class="col-3 text-end mb-0">3,50€ / 18,00€</p>
+                            <p class="col-12">(Petit Verdot - D.O. Castilla La Mancha)</p>
+                        </article>
+                </div>
+            </section>
+        </div>
+
+        <div class="bebidas2 col-12">
+            <section id="CerBarr" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">CERVEZA DE BARRIL</h2>
+                <div class="CBR1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">MAHOU CINCO ESTRELLAS<strong> 50 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">Cerveza de baja fermentación elaborada con las mejores variedades de malta,
+                            lúpulo y levadura. 5,5°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">MAHOU SIN<strong> 50 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">Cerveza cremosa y consistente, con ligeros tonos a lúpulo y cereal de cuerpo
+                            ligero, presenta un amargor bajo con un leve dulzor. 0,9°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">MAHOU MAESTRA<strong> 50 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">Color ámbar con reflejos anaranjados, amargor fino y persistente con recuerdos
+                            a granos de café envueltos en miel. 7,5°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">FRANZISKANER NATURTRÜB<strong> 50 CL</strong></h3>
+                        <p class="col-3">4,80€</p>
+                        <p class="col-12">Cerveza blanca de trigo de color brillante y textura cremosa. Aroma de frutas
+                            maduras, cítricos y plátano. 5,0°</p>
+                    </article>
+                </div>
+                <div class="CBR2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">ALHAMBRA ESPECIAL RADLER<strong> 50 CL</strong></h3>
+                        <p class="col-3">3,10€</p>
+                        <p class="col-12">Cerveza fresca y elegante, de destacadas notas cítricas a limón con recuerdos
+                            herbales y especiados a cardamomo que se refuerzan al beber. 3,0°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">BUDWEISER<strong> 50 CL</strong></h3>
+                        <p class="col-3">3,50€</p>
+                        <p class="col-12">Cerveza americana tipo lager producida con una gran proporción de arroz,
+                            además de lúpulo y malta de cebada. Baja fermentación muy refrescante. 5,5°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">GUINNES<strong> 50 CL</strong></h3>
+                        <p class="col-3">3,00€</p>
+                        <p class="col-12">Cerveza tipo Ale, de espuma cremosa, arraigada a la más pura tradición
+                            irlandesa. 4,2°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBA col-9">PAULANER HEFE-WEIBER<strong> 50 CL</strong></h3>
+                        <p class="col-3">4,50€</p>
+                        <p class="col-12">Cerveza elaborada con malta de trigo y naturalmente turbia por la presencia de
+                            levadura. De fermentación alta, su sabor es afrutado y natural. 5,3°</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="imagen-botella" class="d-flex flex-wrap col-12"> 
+                <img width="1300px" height="400px" src="./img/botellas de cerveza.jpg" alt="">
+            </section>
+
+            <section id="CerBo" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">CERVEZA DE BOTELLA</h2>
+                <div class="CBT1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">MAHOU CINCO ESTRELLAS<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,00€</p>
+                        <p class="col-12">Cerveza de baja fermentación elaborada con las mejores variedades de malta,
+                            lúpulo y levadura. 5,5°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">MAHOU SIN<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,50€</p>
+                        <p class="col-12">Cerveza cremosa y consistente, con ligeros tonos a lúpulo y cereal de cuerpo
+                            ligero, presenta un amargor bajo con un leve dulzor. 0,9°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">ALHAMBRA RESERVA 1925<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">Cerveza de balance amargo/dulce perfectamente equilibrado, con notas que van
+                            desde la naranja amarga hasta un final ligeramente caramelizado. 6,4°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">ALHAMBRA RESERVA ROJA<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,80€</p>
+                        <p class="col-12">Cerveza con notas de cereal tostado y manzana verde envuelta en una elegante
+                            nota de alcohol que ayuda a añadir intensidad. 7,2°</p>
+                    </article>
+                </div>
+                <div class="CBT2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">VELTINS<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,50€</p>
+                        <p class="col-12">Aroma con notas herbáceasa y de malta, que contrasta con su sabor fuerte y de
+                            notas tostadas. 4,9°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">GREVENSTEINER<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">El aroma complejo está dominado inicialmente por los sabores de caramelo, con
+                            un ligero matiz de miel y almendra tostada. 5,2°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">STELLA ARTOIS<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">Los aromas son de mediana intensidad y sobresalen los cereales, principalmente
+                            el lúpulo. La malta, cítricos, flores y de tostado también están presentes. 5,2°</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-item-center mt-0">
+                        <h3 class="CBO col-9">LOWENBRAU<strong> 33 CL</strong></h3>
+                        <p class="col-3">3,70€</p>
+                        <p class="col-12">Agradable aroma ligeramente herbal y cítrico. De cuerpo ligero, es refrescante
+                            en boca. Delicada y ligeramente amarga. 5,2°</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <div class="platos1 col-12">
+            <section id="entrantes" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">ENTRANTES</h2>
+                <div class="EN1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-6">MOZZARELLA STICKS</h3>
+                        <p class="col-6 text-end mb-0">7,90€</p>
+                        <p class="col-12">Palitos de mozzarella empanados con hierbas,
+                            servidos con una deliciosa salsa de arándanos.
+                            Si lo deseas cambia tu salsa por: salsa mostazamiel o salsa thai agridulce (ligeramente
+                            picante). 
+                            <img src="./alergenos/lacteos.png" alt="alergeno" style="width:25px;height:35px;">
+                            <img src="./alergenos/gluten.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-6">NEW YORK COMBO</h3>
+                        <p class="col-6 text-end mb-0">14,50€(racion)</p>
+                        <p class="col-12 text-end mb-0">8,90€(1/2 racion)</p>
+                        <p class="col-12">Ideal para compartir: prueba nuestras alitas de
+                            pollo BBQ a la brasa, mozzarella sticks, jalapeños
+                            empanados rellenos de queso cheddar y crujientes
+                            aros de cebolla, se acompañan con salsas: BBQ y
+                            miel mostaza.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-9">GRILLED CHICKEN TACOS</h3>
+                        <p class="col-3 text-end mb-0">8,50€</p>
+                        <p class="col-12">Pechuga de pollo a la brasa, elige acompañarla
+                            entre salsa BBQ o Miel de caña Vienen
+                            acompañados de guacamole, pico de gallo y nata
+                            agria.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-6">BROCHETA</h3>
+                        <p class="col-6 text-end mb-0">12€</p>
+                        <p class="col-12">De solomillo con bacon, tomate, cebolla, pimiento y salsa BBQ con patatas
+                            fritas</p>
+                    </article>
+                </div>
+                <div class="EN2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-6">HUMMUS RANCHERO</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Hummus casero de frijoles acompañado de crujientes tostas de pan y totopos.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-9">QUESADILLA DE CHAMPIÑONES</h3>
+                        <p class="col-3 text-end mb-0">9,50€</p>
+                        <p class="col-12">¡Perfecto para los #Kids! Tortillas de trigo rellena de queso rallado
+                            emmental, champiñones y un toque de puerro.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-9">PULLED SMOKED CHEESE FRIES</h3>
+                        <p class="col-3 text-end mb-0">13,50€</p>
+                        <p class="col-12">¡Empieza a lo grande con nuestras Pulled Smoked Cheese Fries! Deliciosas y
+                            crujientes patatas fritas gratinadas
+                            con queso Cheddar ahumado y mix de quesos. Servidas con cebolla frita, salsa Mayo Smoked
+                            Bacon e insuperable carne de cerdo
+                            deshilachada con salsa BBQ.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="ENT col-6">ALITAS CHILI BBQ</h3>
+                        <p class="col-6 text-end mb-0">12,50€</p>
+                        <p class="col-12">Alitas de pollo marinadas en salsa BBQ Chipotle y salsa sweet chili sobre
+                            patatas fritas, acompañadas de salsa ranch
+                            <img src="./alergenos/picante.png" alt="picante" style="width:20px;height:25px;">
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="imagenes-entrantes" class="d-flex flex-wrap col-12">
+                <div class="IMGE-1 col-4">
+                    <img width="250px" height="250px" src="./img/entrantes1.jpeg" alt="entrante1">
+                </div>
+                <div class="IMGE-2 col-4">
+                    <img width="250px" height="250px" src="./img/entrantes 2.jpeg" alt="entrante2">
+                </div>
+                <div class="IMGE-2 col-4">
+                    <img width="250px" height="250px" src="./img/entrantes3.jpeg" alt="entrante3">
+                </div>
+            </section>
+            <section id="burguers" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">HAMBURGUESAS</h2>
+                <div class="BG1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">TRIBECA</h3>
+                        <p class="col-12">Pechuga de pollo rebozada y extracrujiente acompañada de
+                            salsa buffalo picante NYB, mayonesa de queso parmesano
+                            y lechuga batavia. Si no eres un amante del picante puedes
+                            cambiar la salsa Buffalo por salsa BBQ.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">BRONX</h3>
+                        <p class="col-12">La hamburguesa del Bronx, cocinada a su
+                            gusto y servida con queso cheddar, bacon
+                            crujiente, guacamole, tomate, cebolla roja y
+                            mayonesa de chipotle.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">LA BACOA</h3>
+                        <p class="col-12">¡Nuestra Best Seller! Vacuno a la parrilla con bacon ahumado,
+                            queso Manchego, Cheddar, nuestros pepinillos caseros y mostaza artesana.
+                            <img src="./alergenos/mostaza.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">FOIE BURGUER</h3>
+                        <p class="col-12">Carne 100% ecológica certificada, foie, queso raclette, cebolla
+                            macerada en salsa Kimchi y trufa. Se sirve acompañada de patatas trufadas y parmesano.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="BG2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">MEXICANA</h3>
+                        <p class="col-12">De vaca. Con guacamole, queso Monterrey, maíz, lechuga, tomates cherry asados,
+                            jalapeños y alioli de rocoto. En pan de hamburguesa ligero.
+                            <img src="./alergenos/picante.png" alt="picante" style="width:20px;height:25px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">RIANXEIRA</h3>
+                        <p class="col-12">Burger de ternera, queso San Simón gratinado, panceta crujiente, lechuga,
+                            tomate y cebolla roja</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">BUFALA BILL</h3>
+                        <p class="col-12">Con mozzarella, pimiento y cebolla frita, toamte a la parrilla, nuestra salsa
+                            BBQ, especias de pizza y orégano.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="HMB col-6">SWISS CLASSIC</h3>
+                        <p class="col-12">Queso raclette fundido sobre carne ecológica, cebolla en rodajas a la plancha
+                            y champiñones salteados.
+                            ¡Atrévete a probarla!
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="confburguers" class="d-flex flex-wrap col-12">
+                <h2>CONFIGURA TU HAMBURGUESA</h2>
+                <div class="CH1 d-flex flex-wrap col-12">
+                    <div class="CBG1 col-4">
+                        <article id="border" class="d-flex flex-wrap col-12 p-2 align-items-center mt-0 m-1">
+                            <p class="col-12 text-center text-danger">EL PRECIO INCLUYE</p>
+                            <p class="col-12 text-center "><strong>Hamburguesa con pan brioche</strong></p>
+                            <p class="col-12 text-center">+</p>
+                            <p class="col-12 text-center"><strong>Patatas fritas o en gajo o Ensalada de col</strong>
+                            </p>
+                            <p class="col-12 text-center"><strong>Puedes cambiar tu guarnición ¡Echa un vistazo a
+                                    nuestros extras!</strong></p>
+                        </article>
+                    </div>
+                    <div class="CBG2 col-4">
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <p class="CONF2 col-12"><strong class="CONF5">100%</strong> CARNE</p>
+                            <p class="CONF3 col-12"><strong class="CONF6">100%</strong> GREEN</p>
+                            <p class="CONF4 col-12"><strong class="CONF7">100%</strong> SABOR</p>
+                        </article>
+                    </div>
+                    <div class="CBG3 col-4">
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <p class="col-12 text-center">Pide a tu camarero el punto de cocción de tu carne.
+                                Las hamburguesas se servirán al punto medio si no se pide de otra forma.
+                            </p>
+                            <p class="col-12 text-center"><strong>Por favor considere que las carnes poco hechas pueden
+                                    implicar riesgos para la salud</strong></p>
+                        </article>
+                    </div>
+                </div>
+                <div class="CH2 d-flex flex-wrap col-12">
+                    <div class="CBG4 d-flex flex-wrap col-9">
+                        <img src="./img/hamgurguesa.jpg" alt="hamburguesa" width="950px" height="800px">
+                    </div>
+                    <div class="CBG5 d-flex flex-wrap col-3">
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <h3 class="CONF col-12">EXTRAS</h3>
+                            <p class="col-12">Agrégale a tu hamburguesa cualquiera de nuestros extras o prepárala a tu
+                                gusto</p>
+                        </article>
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <h3 class="CONF col-9">QUESOS <img src="./img/cheese_food_4012.png" alt="queso" style="width:25px;height:25px;"></h3>
+                            
+                            <p class="col-12">Queso crema / Cheddar en lonchas o derretido / Azul / Parmesano / Gouda /
+                                Monterrey Jack / De cabra 0,90€</p>
+                        </article>
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <h3 class="CONF col-9">DE LA HUERTA <img src="./img/tomato_food_4610.png" alt="tomate" style="width:25px;height:25px;"></h3>
+                            <p class="col-12">Cebolla / Lechuga / Tomate 0,50€ / Cebolla caramelizada / Cebolla a la
+                                brasa / Jalapeños / Pepinillos / Guacamole / Frijoles rancheros 1€ / Ensalada de col
+                                2,50€</p>
+                        </article>
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <h3 class="CONF col-9">SALSAS <img src="./img/sauce_bottles_food_ketchup_mustard_icon_207935.png" alt="salsas" style="width:35px;height:35px;"></h3>
+                            <p class="col-12">BBQ / Miel-mostaza / Bourbon / Búfalo picante / Thai / NYB / Crema agria
+                                0,90€</p>
+                        </article>
+                        <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                            <h3 class="CONF col-9">OTROS <img src="./img/egg_fried_icon_160182.png" alt="huevo frito" style="width:25px;height:25px;"></h3>
+                            <p class="mb-0 col-12">Pulled Pork 2,50€</p>
+                            <p class="mb-0 col-12">Bacon, Huevo frito, Aros de cebolla 1€</p>
+                            <p class="mb-0 col-12">Ración de patatas fritas 2,50€</p>
+                            <p class="mb-0 col-12">Ración de patatas en gajo 2,50€</p>
+                            <p class="mb-0 col-12">Ración de batatas fritas 3,50€</p>
+                            <p class="mb-0 col-12">Patatas asadas con queso crema o crema agría 2,50€</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="CH3 d-flex flex-wrap col-12">
+                    <div class="CBG7 col-3">
+                        <article class="d-flex flex-wrap col-12 p-2">
+                            <h3 class="CONF col-9 text-center">ELIGE EL TAMAÑO</h3>
+                            <p class="col-9 text-center"><strong>190 GR:</strong> 11,50€</p>
+                            <p class="col-9 text-center"><strong>250 GR:</strong> 12,50€</p>
+                            <p class="col-9 text-center"><strong>350 GR:</strong> 14,90€</p>
+                        </article>
+                    </div>
+                    <div class="CBG6 d-flex flex-wrap col-6">
+                        <article class="d-flex flex-wrap col-12 p-2">
+                            <h3 class="CONF col-12">ESCOGE EL PUNTO DE LA CARNE</h3>
+                            <img src="./img/punto de carne.jfif" alt="punto de carne" style="width:600px;height:300px;">
+                        </article>
+                    </div>
+                    <div class="CBG8 col-3">
+                        <article class="d-flex flex-wrap col-12 p-2">
+                            <h3 class="CONF col-12">ESCOGE LA GUARNICIÓN</h3>
+                            <p class="col-12"><strong>Ensalada de col - Ensalada NYB - Patatas fritas - Patatas en
+                                    gajo</strong>Añádele queso cheddar derretido por 0,90€ más -
+                                <strong>Batatas Fritas</strong>(Boniato) 1€ más -<strong>Patata asada</strong> con queso
+                                crema o crema agría por 1€ más.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="platos2 col-12">
+            <section id="pizzas" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">PIZZAS</h2>
+                <div class="PZ1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">PIZZA SAUNA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Tomate, mozzarella, albahaca, ajo, aceite picante, orégano y salami
+                            <img src="./alergenos/picante.png" alt="picante" style="width:20px;height:25px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">PIZZA CARBONARA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Mozzarella, huevo, panceta italiana, parmesano y pimienta negra</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">PIZZA BOLOGNESE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Mozzarella, salsa boloñesa (tomate cocido con apio, cebolla, zanahoria y carne
+                            picada) y parmesano
+                            <img src="./alergenos/apio.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">DELIZIOSA </h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Base blanca de mozzarella Fior di Latte, filetes de
+                            solomillo de ternera, foie gras, gorgonzola, toque de
+                            mascarpone y granela de avellanas tostadas
+                        </p>
+                    </article>
+                </div>
+                <div class="PZ2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">PIZZA VEGANA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Tomate, verdura, champiñones, besciamella de soja, salsa de verduras, tofu,
+                            seitan, orégano
+                            <img src="./alergenos/soja.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">CABRA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Tomate, mozzarella, bacon, champiñones, queso de cabra y rúcula</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-9">GAMBAS AL PESTO Y PIÑONES </h3>
+                        <p class="col-3 text-end mb-0">10€</p>
+                        <p class="col-12">Base de pesto de albahaca, mozzarella, tomate confit,
+                            gambas rebozadas, panceta italiana, piñones, crema de
+                            burrrata y perlitas de búfala 
+                            <img src="./alergenos/pescado.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PZS col-6">PIZZA SAPORITA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Mozzarella de búfala, salsa pesto de albahaca y speck (jamón ahumado)</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="imagen-pizza" class="d-flex flex-wrap col-12">
+                    <img src="./img/pizzas_background.jpg" alt="pizza background" width="1300px" height="350px">
+            </section>
+
+            <section id="pokes" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">POKES</h2>
+                <div class="PK1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">ATUNA MATATA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Atún, aguacate, edamame, cebolla dulce, cebollino, semillas de sésamo, + salsa
+                            clásica</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">ALUCINA LUBINA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Lubina flambeada, cebolla frita, alga wakame, seta shiitake, mango, tomate
+                            cherry, rabanitos, semilla de sésamo, + salsa mayo trufada</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">POKE DE PASTA</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Pasta de harinas vegetales, pollo, piña, aguacate, edamame, maíz, tomate
+                            cherry, queso fresco y salsa Teriyaki.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">UH! MAMI!</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Atún, salmón aguacate, edamame, mango, cebollino, crunchy wakame, semillas de
+                            sésamo + salsa aloha mayo
+                            <img src="./alergenos/sesamo.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                </div>
+                <div class="PK2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">SEXY MOJITO</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Lubina, aguacate, edamame, mango, cebolla morada, cacahuetes, semillas de
+                            sésamo + salsa aloha mojito
+                            <img src="./alergenos/cacahuetes.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">FUNKY SALMON</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Salmón, edamame, pepino, cebolla dulce, cebollino, semillas de sésamo, + salsa
+                            wasabi alioli
+                            <img src="./alergenos/sesamo.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">POKE DE POLLO</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Arroz sushi, pollo, mango, aguacate, edamame, maíz, zanahoria, cebolla
+                            crujiente y salsa Teriyaki.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="PKS col-6">NINJA SALMON </h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Salmón, aguacate, alga wakame, masago, semillas de sésamo, + salsa spicy mayo
+                            <img src="./alergenos/sesamo.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="imagenes-pokes" class="d-flex flex-wrap col-12">
+                <div class="IMGE-1 d-flex flex-wrap col-3">
+                    <img class="ms-5" width="250px" height="250px" src="./img/poke1.PNG" alt="poke1">
+                </div>
+                <div class="IMGE-2 d-flex flex-wrap col-3">
+                    <img class="ms-5" width="250px" height="250px" src="./img/poke2.PNG" alt="poke2">
+                </div>
+                <div class="IMGE-3 d-flex flex-wrap col-3">
+                    <img class="ms-4" width="250px" height="250px" src="./img/poke3.PNG" alt="poke3">
+                </div>
+                <div class="IMGE-4 d-flex flex-wrap col-3">
+                    <img class="ms-3" width="250px" height="250px" src="./img/poke4.PNG" alt="pok4">
+                </div>
+            </section>
+        </div>
+        <div class="platos3 col-12">
+            <section id="sandwich" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">SANDWICH</h2>
+                <div class="SW1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-6">CHICKEN SANDWICH</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Este clásico lleva pechuga de pollo a la brasa cortada en lonchas, crujiente
+                            bacon
+                            y queso monterrey Jack, con mayonesa, tomate y lechuga.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-6">COCHINITA PIBIL</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Sándwich de cochinita pibil con toques de zumo de naranja, cebolla, cilantro,
+                            achiote
+                            y laurel. Acompañado de lechuga fresca y guacamole casero.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-6">HOT MEXICANO</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Disfruta de nuestro delicioso sándwich de contramuslo de pollo, macerado en
+                            ajo y perejil,
+                            queso mozzarella, aguacate, lechuga fresca, rodajas de tomate con salsa chipotle suave y
+                            mayonesa.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-6">CACHOPOWER</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Cachopo relleno de carne de vacuno, jamón serrano, queso y pimiento del
+                            piquillo, huevo frito,
+                            guindilla verde, lechuga y mayonesa ligeramente picante, en crujiente pan cristalino.
+                            Acompañado de guarnición
+                            a elegir y mayonesa ligeramente picante.
+                            <img src="./alergenos/huevo.png" alt="alergeno" style="width:25px;height:35px;">
+                        </p>
+                    </article>
+                </div>
+                <div class="SW2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-6">CUBANO</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Pulled pork, queso emmental y queso fundido, jamón cocido, mostaza, mayonesa y
+                            pepinillo, en pan maíz
+                            y semillas de calabaza. Servido con salsa mostaza y miel. Guarnición a elegir, pídelo con
+                            patatas gajo.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-6">KENTUCKY</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Carne mechada de cerdo con salsa BBQ Chipotle, queso Americano y Cheddar
+                            fundido servido en pan integral y salsa BBQ Ranch</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND col-9">PULLED PORK SANDWICH</h3>
+                        <p class="col-3 text-end mb-0">10€</p>
+                        <p class="col-12">El Pulled Pork Sandwich, renovado: carne de cerdo deshilachada, con salsa BBQ,
+                            cheddar ahumado,
+                            lechuga romana aderezada con salsa Yuzu* y pepinillos con toques dulces y ácidos. Servidos
+                            con nuestras patatas Dipper. La combinación perfecta de sabores.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="SND scol-9">SOUTHERN CHICKEN SANDWICH</h3>
+                        <p class="col-3 text-end mb-0">10€</p>
+                        <p class="col-12">Contramuslos de pollo crunchy estilo sureño con pan Pretzel, mezcla de
+                            lechugas, tomate, queso Cheddar y bacon ahumado con madera de haya.
+                            Con salsa de miel mostaza, pepinillo picado, mango y un toque de yuzu, jugo oriental que
+                            aporta el contraste dulce-ácido. Con patatas Dipper.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="noodle" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">NOODLES</h2>
+                <div class="ND1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">CORRAL CHICKEN YAKISOBA</h3>
+                        <p class="col-3 text-end mb-0">11,95€</p>
+                        <p class="col-12">Salteados con setas shiitake, zanahoria, calabacín, cebollino y pechuga de
+                            pollo de corral rebozada con maíz tostado crujiente, salsa yakisoba y teriyaki</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">VEGGIE YAKI</h3>
+                        <p class="col-3 text-end mb-0">9,95€</p>
+                        <p class="col-12">Salteados con setas shiitake, berenjena, brócoli, calabacín, espárragos
+                            trigueros, zanahoria, pimiento rojo y verde y pak choi, con salsa yakisoba y teriyaki</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">CORRAL CHICKEN YAKI</h3>
+                        <p class="col-3 text-end mb-0">11,95€</p>
+                        <p class="col-12">Salteados con setas shiitake, zanahoria, calabacín, cebollino y pechuga de
+                            pollo de corral rebozada con maíz tostado crujiente, salsa yakisoba y teriyaki</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">BEEF YAKI</h3>
+                        <p class="col-3 text-end mb-0">9,95€</p>
+                        <p class="col-12">Salteados con ternera confitada, pimiento rojo y verde, setas shiitake,
+                            zanahoria, calabacín, salsa yakisoba y cebollino</p>
+                    </article>
+                </div>
+                <div class="ND2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">SEAFOOD YAKI</h3>
+                        <p class="col-3 text-end mb-0">11,55€</p>
+                        <p class="col-12">Salteados con calamar, gambitas, setas shiitake, zanahoria, calabacín, salsa
+                            yakisoba y katsuobushi</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">VEGAN MISO SOBA</h3>
+                        <p class="col-3 text-end mb-0">10,95€</p>
+                        <p class="col-12">Fideo de trigo sarraceno salteado con setas shiitake y shimeji, proteína
+                            vegetal Heura, pak choi, cáscara de zanahoria frita y salsa picante de miso y leche de coco
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">HEÜRA YAKISOBA</h3>
+                        <p class="col-3 text-end mb-0">10,75€</p>
+                        <p class="col-12">Salteado con proteína vegetal Heura, setas shiitake, zanahoria, calabacín,
+                            salsa yakisoba y cebollino</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="NOD col-9">HEÜRA YAK</h3>
+                        <p class="col-3 text-end mb-0">10,20€</p>
+                        <p class="col-12">Salteado con proteína vegetal Heura, setas shiitake, zanahoria, calabacín,
+                            salsa yakisoba y cebollino</p>
+                    </article>
+                </div>
+            </section>
+            <section id="imagenes-noodles" class="d-flex flex-wrap col-12">
+                <div class="IMGN-1 d-flex flex-wrap col-3">
+                    <img src="img/noodle1.PNG" alt="noodle1" width="250px" height="200px">
+                </div>
+                <div class="IMGN-2 d-flex flex-wrap col-3">
+                    <img src="img/noodle2.PNG" alt="noodle2" width="250px" height="200px">
+                </div>
+                <div class="IMGN-3 d-flex flex-wrap col-3">
+                    <img src="img/noodle3.PNG" alt="noodle3" width="250px" height="200px">
+                </div>
+                <div class="IMGN-4 d-flex flex-wrap col-3">
+                    <img src="img/noodle4.PNG" alt="noodle4" width="250px" height="200px">
+                </div>
+            </section>
+        </div>
+        <div class="postres col-12">
+            <section id="postres" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">POSTRES</h2>
+                <div class="PS1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">NEW YORK CHEESE CAKE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Nuestro Cheesecake, la receta original New Yorkina, con el sabor auténtico de
+                            esta mítica
+                            tarta y la cremosidad de una tarta de queso. Lo mejor de los dos mundos unidos en una
+                            porción
+                            que te garantiza disfrutar y querer repetir.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">OREO CHOCOLATE CAKE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Tarta de chocolate con galletas Oreo y helado de vainilla.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">BROWNIE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Nuestra super copa de bizcocho de chocolate caliente, chocolate fundido,
+                            virutas de chocolate, nata montada y helado de vainilla.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">COOKIE GIGANTE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Galleta con nueces y gotitas de chocolate. Servido con sirope de chocolate,
+                            nata y helado</p>
+                    </article>
+                </div>
+                <div class="PS2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">YOGURT NATURAL</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">¡Ligero, fresco y muy sano! Yogurt natural con fresas, frambuesas o arándanos,
+                            granola y sirope de agave.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">CROISSANT FRENCH TOAST</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Croissant a la plancha bañado en leche y huevo, con canela, rodajas de fresa y
+                            plátano, caramelo y una bola de helado de vainilla.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">DEVIL'S FOOD CAKE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Delicioso bizcocho de chocolate relleno de crema de chocolate, cubierto con
+                            chocolate fondant y bañado con nuestra salsa de chocolate y trocitos de galleta Chips Ahoy®.
+                        </p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h3 class="POST col-6">BANOFFEE</h3>
+                        <p class="col-6 text-end mb-0">10€</p>
+                        <p class="col-12">Tarta con base de plátano natural y crema de leche.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="imagenes-postres" class="d-flex flex-wrap col-12">
+                <div class="IMGP-1 d-flex flex-wrap col-3">
+                    <img src="./img/postre1.PNG" alt="postre1" width="250px" height="250px">
+                </div>
+                <div class="IMGP-1 d-flex flex-wrap col-3">
+                    <img src="./img/postre2.PNG" alt="postre2" width="250px" height="250px">
+                </div>
+                <div class="IMGP-1 d-flex flex-wrap col-3">
+                    <img src="./img/postre3.PNG" alt="postre3" width="250px" height="250px">
+                </div>
+                <div class="IMGP-1 d-flex flex-wrap col-3">
+                    <img src="img/postre4.PNG" alt="postre4" width="250px" height="250px">
+                </div>
+            </section>
+        </div>
+        <div class="cafes col-12">
+            <section id="cafes" class="d-flex flex-wrap col-12">
+                <h2 class="col-12">CAFÉS</h2>
+                <div class="CF1 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Solo</h6>
+                        <p class="col-3 text-end mb-0">1,50€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Café con leche</h6>
+                        <p class="col-3 text-end mb-0">1,80€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Descafeinado (máquina o sobre)</h6>
+                        <p class="col-3 text-end mb-0">2,50€</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Cappuchino</h6>
+                        <p class="col-3 text-end mb-0">2,50€</p>
+                        <p class="col-12">Poca leche y mucha espuma</p>
+                    </article>
+                </div>
+                <div class="CF2 col-6">
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Café Casanova</h6>
+                        <p class="col-3 text-end mb-0">3,50€</p>
+                        <p class="col-12">Leche condensada, café nata y canela.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Café Irlandés</h6>
+                        <p class="col-3 text-end mb-0">3,20€</p>
+                        <p class="col-12">Whisky, café, nata y café molido.</p>
+                    </article>
+                    <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                        <h6 class="CAFE col-9">Café Irlandés</h6>
+                        <p class="col-3 text-end mb-0">3,50€</p>
+                        <p class="col-12">Baileys, café, nata y canela.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="backgound-cafe" class="d-flex flex-wrap col-12 mb-2">
+                <div class="CAFE-1 d-flex flex-wrap col-12">
+                    <img  width="1300px" height="300px" src="./img/cafe-background.webp" alt="background-cafe">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer d-flex flex-wrap col-8">
+        <div class="footer d-flex flex-wrap col-12">
+            <div class="col-4">
+                <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                    <h3 class="col-12">Restaurante Ankara</h3>
+                    <strong class="col-12">Dirección:</strong>
+                    <p class="col-12">Restaurante Ankara</p>
+                    <p class="col-12">Camino de la Cabana</p>
+                    <p class="col-12">07141 Es Pont d'Inca</p>
+                    <p class="col-12">Illes Balears</p>
+                    <strong class="col-12">Teléfono:</strong>
+                    <a class="col-12" href="contacto">971258473</a>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                    <h3 class="col-12">Horarios</h3>
+                    <strong class="col-12">Horarios:</strong>
+                    <p class="col-9">De lunes a jueves 12:30 a 17:00 y de 20:00 01:00hrs</p>
+                    <p class="col-12">De viernes a domingos 12:30 a 02:00hrs </p>
+                    <br>
+                    <p class="col-12">Apertura cocina 13:00 h.</p>
+                    <p class="col-12">Cierre cocina 00:30 h.</p>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="d-flex flex-wrap col-12 p-2 align-items-center mt-0">
+                    <h3 class="col-12">Contactanos!</h3>
+                    <a class="col-12 mb-2" href="https://twitter.com/">
+                        <img src="./img/twitter.png" alt="twitter" style="width:25px;height:25px;">
+                    </a>
+                    <a class="col-12 mb-2" href="https://www.instagram.com/">
+                        <img src="./img/instagram.png" alt="twitter" style="width:25px;height:25px;">
+                    </a>
+                    <a class="col-12 mb-2" href="https://ca-es.facebook.com/">
+                        <img src="./img/facebook.png" alt="twitter" style="width:25px;height:25px;">
+                    </a>
+                    <a class="col-12 mb-2"
+                        href="https://www.google.com/webhp?hl=ca&ictx=2&sa=X&ved=0ahUKEwjNjM7xjun0AhWUBWMBHTDHDAwQPQgI">
+                        <img src="./img/google-mas.png" alt="twitter" style="width:25px;height:25px;">
+                    </a>
+                    <a class="col-12 mb-2" href="https://www.tripadvisor.es/">
+                        <img src="./img/tripadvisor.png" alt="twitter" style="width:25px;height:25px;">
+                    </a>
+                </article>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

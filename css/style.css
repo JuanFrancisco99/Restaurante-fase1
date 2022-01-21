@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-repeat:no-repeat ;
+    background-size: contain;
+}
+
+#icono-menu{
+    font-size: 30px;
+}
+
+/* bebidas frias 1 (bebidas frias, aguas minerales, vinos */ 
+#refrescos{
+    
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px;
+}
+
+.RF1{
+    margin-bottom: 0;
+}
+
+.vinos{
+    font-size: 17px;
+}
+
+/* bebidas frias 2 cerveza barril, cerveza botella*/
+
+#CerBarr{
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px;
+}
+
+.CBA{
+    font-size: 16px;
+}
+
+.CBO{
+    font-size: 16px;
+}
+
+
+/* platos principales 1 entrantes, hamburguesa, conf hamburguesa*/
+#entrantes{
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px;
+}
+
+#border{
+    border: #FD4242;
+    border-style: dashed;
+}
+
+.ENT{
+    font-size: 16px;
+}
+
+.HMB{
+    font-size: 16px;
+}
+
+.CONF{
+    font-size: 16px;
+}
+
+.CONF2{
+    font-size: 28px;
+    color: #E87D59;
+}
+
+.CONF3{
+    font-size: 28px;
+    color: #469B41;
+}
+
+.CONF4{
+    font-size: 28px;
+    color: #F1CEAC;
+}
+
+.CONF5{
+    font-size: 28px;
+    color: black;
+}
+
+.CONF6{
+    font-size: 28px;
+    color: black;
+}
+
+.CONF7{
+    font-size: 28px;
+    color: black;
+}
+
+.CBG5{
+    background-color: #EA7049;
+}
+
+#confburguers{
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px;
+}
+
+/* platos princiapales 2 pizzas, pokes*/
+#entrantes h2{
+    margin-bottom: 0;
+}
+
+.PZS{
+    font-size: 16px;
+}
+
+.PKS{
+    font-size: 16px;
+}
+
+#pokes{
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px;
+}
+
+/* platos principales 3 sandwich, noodles*/
+
+#noodle{
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px;
+}
+
+#cafes{
+    border-style: solid;
+    border-color: #FD8282;
+    border-width: 10px; 
+}
+
+.SND{
+    font-size: 16px;
+}
+
+.NOD{
+    font-size: 16px;
+}
+
+
+/*postres*/
+
+.POST{
+    font-size: 16px;
+}
+
+/*cafes*/
+
+.CAFE{
+    font-size: 17px;
+}
+
+/* footer */
+.footer{
+    background-color: #FF92E1;
+}

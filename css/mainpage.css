@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+#icono-menu{
+    font-size: 30px;
+}
+
+.AM{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.TXT{
+    font-size: 26px;
+}
+
+.footer{
+    background-color: #FF92E1;
+}
